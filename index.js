@@ -17,7 +17,7 @@ app.get('/', (req, res) => {
   res.send('Goovo Backend Server Live with MongoDB!');
 });
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 8080;
 app.listen(PORT, "0.0.0.0", () => {
   console.log(`🚀 Server started on port ${PORT} with MongoDB`);
 });
